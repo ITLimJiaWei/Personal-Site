@@ -1,0 +1,74 @@
+.nav-lato-parent {
+  font-family: lato;
+  font-size: 21px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.nav-lato {
+  font-family: lato;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+#body-index {
+  background-color: #87c3ee;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Setting fade transition and default settings */
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+/* colours */
+.color-violet {
+  background-color: #7a4eab;
+}
+.color-indigo {
+  background-color: #4332cf;
+}
+.color-blue {
+  background-color: #2f8fed;
+}
+.color-green {
+  background-color: #4dcf42;
+}
+
+/* styling for demo, can ignore */
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+h1,
+h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+}
+a {
+  color: #4332cf;
+}
