@@ -72,3 +72,13 @@ p {
 a {
   color: #4332cf;
 }
+
+.center-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border:#7e7e7e 6px solid;
+  border-radius:6px;
+}
+
